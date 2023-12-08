@@ -24,11 +24,6 @@ else {
 
 }
 
-setItem(moneyInAccount):moneyInAccount;
-getItem(): This is how you get items from localStorage
-removeItem(): Remove an item from localStorage
-clear(): Clear all data from localStorage
-key(): Passed a number to retrieve the key of a localStorage
 
 
 

@@ -45,3 +45,15 @@ else if (zodiac == 11) {
 else{
     alert('Wrong answer')
 }
+
+
+
+
+
+
+
+
+
+
+
+
