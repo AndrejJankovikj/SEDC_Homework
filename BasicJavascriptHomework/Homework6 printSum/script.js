@@ -7,26 +7,20 @@ function arrayInHtml(array) {
     let sum = 0;
 
     for (let i = 0; i < array.length; i++) {
-        items += `<li>${array}</li>`;
+        items += `<li>${array[i]}</li>`;
         sum += array[i]
 
     }
-    return items;
+    return [items, sum];
 
 }
 let sum = 0;
 
-// for (let i = 0; i < someArray.length; i++); {
-//     sum += someArray[i];
-// }
-console.log("Sum is" + sum);
-
-document.querySelector('div').innerHTML = `
+document.querySelector("div").innerHTML = `
 <ol>
 ${arrayInHtml(someArray)}
-</ol>`;
-// document.querySelector("div")[1].innerHTML = `
-// <ol>${sum}</ol>`;
+</ol>
+`;
 
 
 
