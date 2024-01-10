@@ -2,7 +2,7 @@ console.log("Hi");
 function table() {
 
     let numCol = parseInt(prompt("Enter the number of columns"))
-    let numRow = parseInt(prompt("Enter the number of rows"))
+    let numRow = parseInt(prompt("Enter the number of rows")) 
     let tableHtml = `<table border='1'>`;
     for (let i = 0; i <= numRow; i++) {
         tableHtml += `<tr>`;
